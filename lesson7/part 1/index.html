@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+            <fieldset>
+
+                <legend>personal information<legend>
+                <label for="firstname">first name</label>
+                <input type="text" id="firstname" name="firstname" value="john" readonly>
+                <label for="lastname">last name</label>
+                <input type="text" id="lastname" name="lastname"disabled>
+                <label for="email">email:</label> <br>
+                <input type="email"id="email" name="email" required>
+                <label for="password">password:</label> <br>
+                <input type="password" id="password" name="password" size="40" placeholder="password">
+                <label>gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">female</label><br>
+                <label>hobbies:</label><br>
+                <input type="checkbox" id="gaming" name="gaming" value="gaming">
+                <label for="football">football</label><br>
+                <label for="pets">choose a pet</label>
+                <select name="pet" id="pet">
+                    <option value="dog"></option>
+                    <option value="cat"></option>
+                    <option value="parrot"></option>
+                </select>
+
+            <fieldset>
+    </form>
+</body>
+</html>
